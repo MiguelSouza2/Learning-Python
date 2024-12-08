@@ -6,11 +6,11 @@ name : str = input("Please enter your name: ")
 # print está mostrando na tela uma mensagem
 print("seu nome é: " + name  + "!\n")
 # input recebe os dados do prompt e está guardando em uma variável 'age'do tipo int -> armazena números inteiros
-age : int = input("Please enter your age: ")
+age : int = int(input("Please enter your age: "))
 
 print("sua idade é de: " + age + "anos!\n")
 #input recebe os dados do prompt e está guardando em uma variável 'name'do tipo float -> armazena número decimais
-weight : float = input("Please enter your weight(kg): ")
+weight : float = float(input("Please enter your weight(kg): "))
 
 print("seu peso é: " + weight + "kg!\n")
 
