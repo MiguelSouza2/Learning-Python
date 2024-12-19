@@ -23,7 +23,7 @@ print(a & b) # vai retornar 0, pois não tem bit comum entre eles
 
 print(a | b) # vai retornar o corresponte ao bit 1110, ou seja, 14
 
-                                # retona 1 caso haja um bit e 0 se não.
+                                # retorna 1 caso haja um bit e 0 se não.
                                         # 0 | 1 = 1
                                         # 1 | 0 = 1
                                         # 0 | 1 = 1
