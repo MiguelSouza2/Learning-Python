@@ -1,4 +1,4 @@
-# ARRAYS EM PYTHON
+# ARRAYS EM PYTHON (LIST)
 
 # Inicializando nossa lista de compras. Note que é necessário utilizar colchetes para manipular arrays
 list = []
