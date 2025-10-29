@@ -4,11 +4,18 @@
 
 # Veja com a classe "fruta"
 class Fruit:
-    def bite():
-        print("YUMMY!")
-
-# Agora instanciando o objeto "Maçã"
+    fruit_text = "Olá, eu sou uma fruta!"
+    
+    # Criando uma função "apodrecer" da classe fruta. Note que é necessário o parâmetro self como primeiro parâmetro
+    def rot(self):
+        print("Estou apodrecendo...")
+    
+# Agora instanciando os objetos "Maçã" e "Banana"
 apple = Fruit()
+banana = Fruit()
 
-# Chamando uma função do objeto
-apple.bite()
+# Acessando uma varável própria do objeto
+print(apple.fruit_text)
+
+# Acessando um método do objeto
+banana.rot()
