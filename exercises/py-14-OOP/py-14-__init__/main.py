@@ -14,6 +14,6 @@ class worker:
         print(f"Bom dia, {self.name}! Boa sorte no serviço de hoje!")
         
 
-miguel_jose = worker("Miguel José", 17, "Analista de vídeo")
+worker = worker("Miguel José", 17, "Analista de vídeo")
 
-miguel_jose.good_morning()
+worker.good_morning()
