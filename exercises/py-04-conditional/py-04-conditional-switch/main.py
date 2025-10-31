@@ -4,17 +4,22 @@
 
 # estrutura condicional if, elif e else
 
-print("Cardápio de hoje:\n [1] pão com ovo\n [2] arroz com feijão\n [3] macarronada\n [4] pão com mortadelado")
+print("Cardápio de hoje:\n [1] pão com ovo\n [2] arroz com feijão\n [3] macarronada\n [4] pão com mortadela")
 
 choice = input("escolha um (1 a 4): ")
 
-def switch_opt(choice):
-    switch_choice = {
-        "1" : "Você escolheu pão com ovo!",
-        "2" : "Você escolheu arroz com feijão!",
-        "3" : "Você escolheu macarronada!",
-        "4" : "Você escolheu pão com mortadela!"
-    }
-    print(switch_choice.get(choice, "opção inválida"))
-    
-switch_opt(choice)
+# Relaciona com a variável
+match choice:
+    # divide entre casos
+    case "1":
+        print("VOCÊ ESCOLHEU PÃO COM OVO")
+        
+    case "2":
+        print("VOCÊ ESCOLHEU ARROZ COM FEIJÃO")
+        
+    case "3":
+        print("VOCÊ ESCOLHEU MACARRONADA")
+        
+    case "4":
+        print("VOCÊ ESCOLHEU PÃO COM MORTADELA")
+        
